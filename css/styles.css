@@ -1,0 +1,134 @@
+/* цвет основного текста  #757575; */
+/* цвет заголовков  #212121; */
+/* акцент    #2196F3 */
+/* белый #ffffff */
+/* темный фон #2F303A */
+/* вторичный серый цвет фона #F5F4FA */
+/* black #000000; */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: #fff;
+  color: var(--primary-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+/*header*/
+.header {
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  text-decoration: none;
+}
+.logo-begin {
+  color: var(--accent-color);
+}
+
+.logo-end {
+  color: #000000;
+}
+
+.menu-link {
+  color: var(--title-text-color);
+  list-style-type: none;
+  text-decoration: none;
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+.mail {
+  color: var(--title-text-color);
+  text-decoration: none;
+  list-style-type: none;
+}
+.mail:hover,
+.mail:focus {
+  color: var(--accent-color);
+}
+.tel {
+  color: var(--title-text-color);
+  text-decoration: none;
+  list-style-type: none;
+}
+/*hero*/
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+/*feature*/
+.feature {
+  list-style-type: none;
+}
+.feature .title {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  list-style-type: none;
+}
+/*about*/
+.about-list {
+  list-style-type: none;
+}
+.about .title {
+  color: var(--title-text-color);
+}
+/*crew*/
+.crew-list {
+  list-style-type: none;
+}
+.crew .title-main {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.crew .title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+.crew-prof {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+/*footer*/
+.footer {
+  background-color: #2f303a;
+}
+.adress {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  list-style-type: none;
+}
