@@ -10,6 +10,7 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --secondary-background-color: #f5f4fa;
 }
 
 body {
@@ -19,9 +20,7 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
 }
-a {
-  text-decoration: none; /* Убираем подчеркивание у ссылок */
-}
+
 /*header*/
 .header {
 }
@@ -46,26 +45,30 @@ a {
 }
 .menu-link {
   color: var(--title-text-color);
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   text-decoration: none;
+  list-style-type: none;
 }
 .menu-link:hover,
 .menu-link:focus {
   color: var(--accent-color);
 }
-.mail {
-  color: var(--title-text-color);
+.header-contacts {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   text-decoration: none;
   list-style-type: none;
 }
-.mail:hover,
-.mail:focus {
+.header-contacts:hover,
+.header-contacts:focus {
   color: var(--accent-color);
 }
-.tel {
-  color: var(--title-text-color);
-  text-decoration: none;
-  list-style-type: none;
-}
+
 /*hero*/
 .hero {
   background-color: #2f303a;
@@ -78,6 +81,21 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+.hero-button {
+  background-color: var(--accent-color);
+  border-radius: 4px;
+}
+.hero-link {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-decoration: none;
 }
 /*feature*/
 .feature {
@@ -141,4 +159,33 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+}
+/*portfolio*/
+.type {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: var(--title-text-color);
+  background-color: var(--secondary-background-color);
+  border-radius: 4px;
+  border-width: 0px;
+}
+
+.type:hover,
+.type:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+.works-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+.works-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
 }
