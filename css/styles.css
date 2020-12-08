@@ -98,6 +98,9 @@ body {
   text-decoration: none;
 }
 /*feature*/
+.invisible {
+  display: none;
+}
 .feature {
   list-style-type: none;
 }
