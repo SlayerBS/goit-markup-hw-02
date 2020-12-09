@@ -150,6 +150,9 @@ body {
 .footer {
   background-color: #2f303a;
 }
+.logo-whiteend {
+  color: #ffffff;
+}
 .adress {
   color: #ffffff;
   font-style: normal;
@@ -162,6 +165,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+  text-decoration: none;
 }
 /*portfolio*/
 .type {
