@@ -20,6 +20,9 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
 }
+a {
+  text-decoration: none;
+}
 
 /*header*/
 .header {
@@ -31,7 +34,6 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-  text-decoration: none;
 }
 .logo-begin {
   color: var(--accent-color);
@@ -48,7 +50,6 @@ body {
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
-  text-decoration: none;
   list-style-type: none;
 }
 .menu-link:hover,
@@ -61,7 +62,7 @@ body {
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
-  text-decoration: none;
+  /*text-decoration: none;*/
   list-style-type: none;
 }
 .header-contacts:hover,
@@ -95,7 +96,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  text-decoration: none;
+  /*text-decoration: none;*/
 }
 /*feature*/
 .invisible {
@@ -165,7 +166,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  text-decoration: none;
+  /*text-decoration: none;*/
 }
 /*portfolio*/
 .type {
